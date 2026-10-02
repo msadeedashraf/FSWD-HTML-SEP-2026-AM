@@ -1,0 +1,1 @@
+worked on assignments and setting up the adolf's machine
