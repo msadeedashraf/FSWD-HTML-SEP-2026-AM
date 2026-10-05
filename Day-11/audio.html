@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Audio and Video</title>
+</head>
+
+<body>
+
+    <h1>Learning HTML Audio and Video</h1>
+
+    <!-- Example 1: Online Audio -->
+    <section>
+        <h2>1. Audio Example: Online Audio</h2>
+
+        <p>
+            This audio file is loaded from the Internet.
+        </p>
+
+        <audio controls>
+            <source
+                src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+                type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <p>
+            <strong>Teaching point:</strong>
+            The controls attribute adds play, pause, volume,
+            and progress controls.
+        </p>
+    </section>
+
+
+    <!-- Example 2: Local Audio -->
+    <section>
+        <h2>2. Audio Example: Local Audio File</h2>
+
+        <p>
+            This example plays an MP3 file stored inside our project.
+        </p>
+
+        <audio controls>
+            <source src="audio/OMHT550.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <p>
+            <strong>Teaching point:</strong>
+            The MP3 file must exist inside the audio folder.
+        </p>
+    </section>
+
+
+    <!-- Example 3: Local Video -->
+    <section>
+        <h2>3. Video Example: Local Video File</h2>
+
+        <p>
+            This example plays a video stored inside our project.
+        </p>
+
+        <video width="600" controls poster="thumbnail.jpg">
+            <source src="video/sample.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+
+        <p>
+            <strong>Teaching point:</strong>
+            The poster attribute displays an image before the video starts.
+        </p>
+    </section>
+
+
+    <!-- Example 4: YouTube -->
+    <section>
+        <h2>4. YouTube Video Example</h2>
+
+        <p>
+            YouTube videos can be embedded using an iframe.
+        </p>
+
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/VIDEO_ID"
+            title="YouTube video"
+            allowfullscreen>
+        </iframe>
+
+        <p>
+            Replace VIDEO_ID with the ID of the YouTube video.
+        </p>
+    </section>
+
+
+    <!-- Copyright Reminder -->
+    <section>
+        <h2>5. Copyright Reminder</h2>
+
+        <p>
+            Do not randomly download music or videos from the Internet
+            and use them in your projects. Use copyright-safe or
+            public-domain media.
+        </p>
+    </section>
+
+</body>
+
+</html>
