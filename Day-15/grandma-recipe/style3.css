@@ -1,0 +1,103 @@
+/* STYLE 3: Playful Magazine — bold borders, flexbox, rotation, responsive design */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #fff1b8;
+  color: #211c2e;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+header {
+  background: #ff647c;
+  padding: 65px 20px;
+  border-bottom: 7px solid #211c2e;
+  text-align: center;
+}
+h1 {
+  display: inline-block;
+  margin: 0;
+  max-width: 900px;
+  padding: 18px 28px;
+  background: #fff;
+  border: 5px solid #211c2e;
+  box-shadow: 12px 12px 0 #211c2e;
+  font-size: clamp(2rem, 6vw, 4.8rem);
+  line-height: 1.1;
+  transform: rotate(-2deg);
+}
+main {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: stretch;
+}
+section {
+  flex: 1 1 350px;
+  min-width: 0;
+  padding: 30px;
+  border: 5px solid #211c2e;
+  box-shadow: 10px 10px 0 #211c2e;
+}
+.intro {
+  flex-basis: 100%;
+  background: #b5f0e3;
+  font-size: 1.6rem;
+  font-weight: bold;
+  transform: rotate(1deg);
+}
+.ingredients {
+  background: #ffc4dc;
+  transform: rotate(-1deg);
+}
+.instructions {
+  background: #c9b8ff;
+  transform: rotate(1deg);
+}
+h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 8px;
+}
+ul,
+ol {
+  padding-left: 26px;
+  line-height: 1.9;
+}
+li {
+  padding: 5px 0;
+}
+li::marker {
+  font-weight: bold;
+}
+footer {
+  background: #211c2e;
+  color: #fff;
+  text-align: center;
+  padding: 30px 15px;
+  font-weight: bold;
+}
+@media (max-width: 700px) {
+  main {
+    margin: 35px auto;
+    gap: 25px;
+  }
+  section,
+  .intro,
+  .ingredients,
+  .instructions {
+    transform: none;
+  }
+  h1 {
+    box-shadow: 7px 7px 0 #211c2e;
+  }
+  section {
+    box-shadow: 6px 6px 0 #211c2e;
+  }
+}
