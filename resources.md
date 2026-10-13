@@ -2,6 +2,13 @@
 ### learning HTML
 [W3School HTML](https://www.w3schools.com/html/)
 
+### Video Tutorials
+- [Link1](https://www.youtube.com/embed/qz0aGYrrlhU?si=P5u4Y0xbB2CpLUIZ)
+- [Link2](https://www.youtube.com/embed/1L2YiWdaUDM?si=oH3vIM-sF3GwjYk6)
+- [Link3](https://www.youtube.com/embed/fkIvmfqX-t0?si=i5aFlYajLrQu84qb)
+- [Link4](https://www.youtube.com/embed/kUMe1FH4CHE?si=s11ma_UOeJ2UhpeN)
+- [Link5](https://www.youtube.com/embed/f8_uF_IDV50?si=Z94dpMvNvmnLicvx)
+
 ### Usefull Resources
 
 [Lorem](https://www.lipsum.com/)
