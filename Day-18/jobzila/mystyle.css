@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+
+}
+
+
+
+/* Header CSS Starts*/
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav{
+    background-color: #ff8500;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+
+    color: white;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover{
+
+    color:#f8e1cc;
+}
+
+/* Header CSS Ends*/
+
+
+/*Footer Page CSS Begin*/
+
+footer{
+
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer p a {
+
+    text-decoration: none;
+    color: #f7c784;
+}
+footer p a:hover{
+
+    color: #f28d21;
+}
+
+
+/*Footer Page CSS Ends*/
