@@ -70,3 +70,35 @@ footer p a:hover{
 
 
 /*Footer Page CSS Ends*/
+
+
+/*Index Page CSS Begin*/
+
+.hero{
+
+    background-image: url(images/mainPic.jpg);
+    height: 500px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.hero-section
+{   
+    text-align: center;
+}
+.hero-section h2
+{
+    color: #56a8f0;
+    margin-bottom: 30px; 
+}
+
+.hero-section p
+{
+
+     color: rgb(239, 231, 181);
+
+}
+
+/*Index Page CSS Ends*/
