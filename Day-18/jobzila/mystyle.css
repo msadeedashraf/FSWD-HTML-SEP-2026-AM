@@ -102,3 +102,140 @@ footer p a:hover{
 }
 
 /*Index Page CSS Ends*/
+
+/*Privacy Page CSS Begin*/
+
+.privacy-section
+{
+ /* margin-top: 20px;
+ margin-right: 20px;
+ margin-left: 20px;
+ margin-bottom: 30px; */
+margin: 20px 20px 30px 20px; 
+}
+
+.privacy-section h2 {
+
+    margin-bottom: 10px;
+}
+
+.privacy{
+
+border: 1px solid #ccc  ;
+border-radius: 10px;
+padding: 20px;
+}
+
+/*Privacy Page CSS Ends*/
+
+
+/*Terms Page CSS Begin*/
+
+.terms-section
+{
+ /* margin-top: 20px;
+ margin-right: 20px;
+ margin-left: 20px;
+ margin-bottom: 30px; */
+margin: 20px 20px 30px 20px; 
+}
+
+.terms-section h2 {
+
+    margin-bottom: 10px;
+}
+
+.terms{
+
+border: 1px solid #ccc  ;
+border-radius: 10px;
+padding: 20px;
+}
+
+
+/*Terms Page CSS Ends*/
+
+
+/*Job Listing Us Page CSS Start*/
+
+.job-listing-section
+{
+ /* margin-top: 20px;
+ margin-right: 20px;
+ margin-left: 20px;
+ margin-bottom: 30px; */
+margin: 20px 20px 30px 20px; 
+}
+
+.job-listing-section h2 {
+
+    margin-bottom: 10px;
+}
+
+.jobs-listing{
+margin-bottom:20px ;
+border: 1px solid #ccc  ;
+border-radius: 10px;
+padding: 20px;
+}
+/*Job Listing Us Page CSS Ends*/
+
+
+/*Contact Us Page CSS Starts*/
+.contact-section{
+    margin: 20px 20px 30px 20px; 
+}
+
+.contact-section h2{
+    margin-bottom: 10px;
+}
+
+
+.contact {
+
+ margin-bottom: 20px;
+border: 1px solid #ccc ;
+border-radius: 5px;
+padding: 20px;
+}
+
+.contact-form{
+    padding: 20px;
+
+
+}
+
+.contact-form input, textarea, select, button
+{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+}
+
+
+.contact-form input[type=submit]
+{
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 50px;
+    border: none;
+}
+
+
+.contact-form input[type=submit]:hover
+{
+    background-color: #464646;
+    color: #f6ede5;
+    
+}
+
+
+
+
+
+/*Contact Us Page CSS Ends*/
